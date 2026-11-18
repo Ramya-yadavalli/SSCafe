@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0B3B2D-E52C-0480-7EDF-BA517D5E4475}|SSCafe.APIGateway\\SSCafe.APIGateway.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B0B3B2D-E52C-0480-7EDF-BA517D5E4475}|SSCafe.APIGateway\\SSCafe.APIGateway.csproj|solutionrelative:sscafe.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B0B3B2D-E52C-0480-7EDF-BA517D5E4475}|SSCafe.APIGateway\\SSCafe.APIGateway.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B0B3B2D-E52C-0480-7EDF-BA517D5E4475}|SSCafe.APIGateway\\SSCafe.APIGateway.csproj|solutionrelative:sscafe.apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|solutionrelative:sscafe.usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|solutionrelative:sscafe.usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|solutionrelative:sscafe.usermanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement\\sscafe.usermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|solutionrelative:sscafe.usermanagement\\sscafe.usermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|solutionrelative:sscafe.usermanagement.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|solutionrelative:sscafe.usermanagement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement.application\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|solutionrelative:sscafe.usermanagement.application\\services\\userroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE2C7C3-E942-E568-6391-DB39D776E340}|SSCafe.UserManagement.Application\\SSCafe.UserManagement.Application.csproj|solutionrelative:sscafe.usermanagement.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|c:\\users\\welcome\\onedrive\\desktop\\ss\\backend\\sscafe\\sscafe.usermanagement\\middleware\\globalexceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C5FEB0-E407-9259-6B49-083D25F3AB30}|SSCafe.UserManagement\\SSCafe.UserManagement.csproj|solutionrelative:sscafe.usermanagement\\middleware\\globalexceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.APIGateway\\Program.cs",
+              "RelativeDocumentMoniker": "SSCafe.APIGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.APIGateway\\Program.cs",
+              "RelativeToolTip": "SSCafe.APIGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T08:02:05.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.APIGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "SSCafe.APIGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.APIGateway\\ocelot.json",
+              "RelativeToolTip": "SSCafe.APIGateway\\ocelot.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-18T07:58:39.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SSCafe.UserManagement\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAACAZmZmZmYiwCMAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:46:00.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement.Application\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "SSCafe.UserManagement.Application\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:45:10.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "SSCafe.UserManagement.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:43:28.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\Program.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\Program.cs",
+              "RelativeToolTip": "SSCafe.UserManagement\\Program.cs",
+              "ViewState": "AgIAAAIAAAAgMzMzMzMkwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:27:31.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\appsettings.json",
+              "RelativeToolTip": "SSCafe.UserManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-18T07:26:29.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SSCafe.UserManagement",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\SSCafe.UserManagement.csproj",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement\\SSCafe.UserManagement.csproj",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\SSCafe.UserManagement.csproj",
+              "RelativeToolTip": "SSCafe.UserManagement\\SSCafe.UserManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-18T07:49:10.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\Services\\UserRoleService.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement.Application\\Services\\UserRoleService.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\Services\\UserRoleService.cs",
+              "RelativeToolTip": "SSCafe.UserManagement.Application\\Services\\UserRoleService.cs",
+              "ViewState": "AgIAADoAAAAAzczMzMwQwEgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:36:21.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement.Application\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement.Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "SSCafe.UserManagement.Application\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:30:57.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "SSCafe.UserManagement\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\WELCOME\\OneDrive\\Desktop\\SS\\Backend\\SSCafe\\SSCafe.UserManagement\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "SSCafe.UserManagement\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T07:29:01.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+
+/* =====================================
+   GOOGLE FONT
+===================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* =====================================
+   ROOT VARIABLES
+===================================== */
+
+:root {
+  --main-color: #443;
+  --light-color: #777168;
+  --cream-color: #e9e7e1;
+
+  --border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+
+  --border-radius-hover: 4% 95% 6% 95% / 95% 4% 92% 5%;
+
+  --border: 0.2rem solid var(--main-color);
+  --border-hover: 0.2rem dashed var(--main-color);
+}
+
+/* =====================================
+   MAIN MENU SECTION
+===================================== */
+
+.menu-section {
+  width: 100%;
+  padding: 65px 7%;
+  position: relative;
+  overflow: hidden;
+
+  background-color: var(--cream-color);
+
+  background-image:
+    radial-gradient(
+      circle at 20% 30%,
+      rgba(255, 255, 255, 0.55),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(160, 155, 143, 0.13),
+      transparent 40%
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(120, 115, 105, 0.025) 0px,
+      rgba(120, 115, 105, 0.025) 1px,
+      transparent 1px,
+      transparent 5px
+    );
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* =====================================
+   SECTION HEADING
+===================================== */
+
+.menu-heading {
+  text-align: center;
+  position: relative;
+  margin-bottom: 35px;
+  min-height: 45px;
+}
+
+.menu-heading span {
+  position: absolute;
+  left: 50%;
+  top: -27px;
+
+  transform: translateX(-50%);
+
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: 3px;
+
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(70, 68, 55, 0.35);
+
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.menu-heading h2 {
+  position: relative;
+  z-index: 1;
+
+  color: var(--main-color);
+
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  margin: 0;
+}
+
+/* =====================================
+   MENU GRID
+===================================== */
+
+.menu-container {
+  max-width: 1060px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  column-gap: 60px;
+  row-gap: 22px;
+}
+
+/* =====================================
+   MENU CARD
+===================================== */
+
+.menu-card {
+  position: relative;
+
+  flex: 1 1 42rem;
+
+  min-height: 126px;
+
+  padding: 18px 22px 15px 42px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 1.5rem;
+
+  background: transparent;
+
+  border: none;
+
+  border-radius: var(--border-radius);
+
+  transform: none !important;
+
+  isolation: isolate;
+}
+
+/* =====================================
+   NORMAL BORDER
+===================================== */
+
+.menu-card::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  box-sizing: border-box;
+
+  border: 1px solid var(--main-color);
+
+  border-radius: var(--border-radius);
+
+  z-index: -1;
+
+  pointer-events: none;
+
+  transition:
+    border 0.3s ease,
+    border-radius 0.5s ease;
+}
+
+/* =====================================
+   HOVER BORDER
+===================================== */
+
+.menu-card:hover::before {
+  border: 1px dashed var(--main-color);
+
+  border-radius: var(--border-radius-hover);
+}
+
+/* =====================================
+   FOUR CORNERS
+===================================== */
+
+.menu-corner {
+  position: absolute;
+  display: none !important;
+  width: 17px;
+  height: 17px;
+
+  border: 1.5px solid var(--main-color);
+
+  z-index: 3;
+
+  pointer-events: none;
+
+  transition: transform 0.5s ease;
+}
+
+/* Top Left */
+
+.menu-corner.top-left {
+  top: 0;
+  left: 0;
+
+  border-right: none;
+  border-bottom: none;
+}
+
+/* Top Right */
+
+.menu-corner.top-right {
+  top: 0;
+  right: 0;
+
+  border-left: none;
+  border-bottom: none;
+}
+
+/* Bottom Left */
+
+.menu-corner.bottom-left {
+  bottom: 0;
+  left: 0;
+
+  border-right: none;
+  border-top: none;
+}
+
+/* Bottom Right */
+
+.menu-corner.bottom-right {
+  bottom: 0;
+  right: 0;
+
+  border-left: none;
+  border-top: none;
+}
+
+/* =====================================
+   CORNER ANIMATION
+===================================== */
+
+.menu-card:hover .top-left {
+  transform: rotate(90deg);
+}
+
+.menu-card:hover .top-right {
+  transform: rotate(-90deg);
+}
+
+.menu-card:hover .bottom-left {
+  transform: rotate(-90deg);
+}
+
+.menu-card:hover .bottom-right {
+  transform: rotate(90deg);
+}
+
+/* =====================================
+   COFFEE IMAGE
+===================================== */
+
+.menu-image {
+  position: absolute;
+
+  left: -30px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 57px;
+  height: 57px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 4;
+}
+
+.menu-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  transition: none;
+}
+
+.menu-card:hover .menu-image img {
+  transform: none !important;
+}
+
+/* =====================================
+   MENU DETAILS
+===================================== */
+
+.menu-details {
+  width: 100%;
+  text-align: left;
+}
+
+.menu-details h3 {
+  color: var(--main-color);
+
+  font-size: 16px;
+  font-weight: 700;
+
+  margin: 0 0 12px;
+}
+
+.menu-details p {
+  color: #45443e;
+
+  font-size: 12px;
+  font-weight: 400;
+
+  line-height: 1.7;
+
+  margin: 0 0 10px;
+}
+
+/* =====================================
+   PRICE
+===================================== */
+
+.menu-price {
+  color: var(--main-color);
+
+  font-size: 15px;
+  font-weight: 500;
+
+  margin-top: 8px;
+}
+
+/* =====================================
+   TABLET RESPONSIVE
+===================================== */
+
+@media (max-width: 900px) {
+
+  .menu-section {
+    padding: 55px 7%;
+  }
+
+  .menu-container {
+    column-gap: 40px;
+    row-gap: 25px;
+  }
+
+  .menu-card {
+    min-height: 130px;
+    padding-left: 38px;
+  }
+
+  .menu-details h3 {
+    font-size: 15px;
+  }
+
+  .menu-details p {
+    font-size: 11px;
+  }
+
+}
+
+/* =====================================
+   MOBILE RESPONSIVE
+===================================== */
+
+@media (max-width: 600px) {
+
+  .menu-section {
+    padding: 45px 12%;
+  }
+
+  .menu-heading {
+    margin-bottom: 35px;
+  }
+
+  .menu-heading span {
+    font-size: 43px;
+    top: -12px;
+  }
+
+  .menu-heading h2 {
+    font-size: 22px;
+  }
+
+  .menu-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .menu-card {
+    min-height: 125px;
+    padding: 17px 15px 15px 38px;
+  }
+
+  .menu-image {
+    width: 53px;
+    height: 53px;
+    left: -26px;
+  }
+
+  .menu-details h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .menu-details p {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .menu-price {
+    font-size: 14px;
+  }
+
+}
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 380px) {
+
+  .menu-section {
+    padding-left: 10%;
+    padding-right: 8%;
+  }
+
+  .menu-heading span {
+    font-size: 36px;
+  }
+
+  .menu-card {
+    padding-right: 10px;
+  }
+
+}
+
+/* =====================================
+   REDUCED MOTION
+===================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .menu-card::before,
+  .menu-corner {
+    transition: none;
+  }
+
+}

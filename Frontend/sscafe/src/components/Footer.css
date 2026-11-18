@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  width: 100%;
+  background: #fff;
+  padding: 25px 9% 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.footer-column h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #292929;
+  margin-bottom: 14px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #a66b2c;
+  padding-left: 3px;
+}
+
+.arrow {
+  color: #633d14;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contact-icon {
+  color: #513b20;
+  font-size: 13px;
+  font-weight: bold;
+  width: 10px;
+}
+
+.social-icon {
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+  width: 10px;
+  text-align: center;
+}
+
+.footer-credit {
+  text-align: center;
+  margin-top: 23px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+}
+
+.footer-credit a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dashed #333;
+  padding-bottom: 2px;
+}
+
+.footer-credit a:hover {
+  color: #a66b2c;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 25px 6%;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 15px;
+  }
+
+  .footer-column h3 {
+    font-size: 17px;
+  }
+
+  .footer-credit {
+    font-size: 12px;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 10px;
+  }
+
+  .footer-column h3 {
+    font-size: 15px;
+  }
+
+  .footer-column ul li {
+    font-size: 10px;
+    gap: 5px;
+  }
+
+  .footer-credit {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+}

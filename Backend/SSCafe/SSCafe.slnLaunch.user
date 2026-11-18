@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SSCafe.APIGateway\\SSCafe.APIGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SSCafe.UserManagement\\SSCafe.UserManagement.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

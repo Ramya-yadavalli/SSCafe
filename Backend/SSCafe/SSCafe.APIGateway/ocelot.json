@@ -1,0 +1,38 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/{everything}",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7177
+        }
+      ],
+      "SwaggerKey": "sscafeapi",
+      "DangerousAcceptAnyServerCertificateValidator": true
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "sscafeapi",
+      "Config": [
+        {
+          "Name": "SSCafe User Management API",
+          "Version": "v1",
+          "Url": "https://localhost:7177/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7129"
+  }
+}

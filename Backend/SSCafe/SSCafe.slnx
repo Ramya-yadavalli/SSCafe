@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="SSCafe.APIGateway/SSCafe.APIGateway.csproj" />
+  <Project Path="SSCafe.MenuManagement/SSCafe.MenuManagement.csproj" />
+  <Project Path="SSCafe.UserManagement.Application/SSCafe.UserManagement.Application.csproj" />
+  <Project Path="SSCafe.UserManagement.Domain/SSCafe.UserManagement.Domain.csproj" />
+  <Project Path="SSCafe.UserManagement.Infrastructure/SSCafe.UserManagement.Infrastructure.csproj" />
+  <Project Path="SSCafe.UserManagement/SSCafe.UserManagement.csproj" />
+</Solution>

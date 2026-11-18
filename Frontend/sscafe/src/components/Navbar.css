@@ -1,0 +1,118 @@
+
+/* Navbar */
+.header {
+  width: 100%;
+  height: 92px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* Logo */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #443;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar-logo svg {
+  color: #443;
+  fill: #443;
+}
+
+/* Navigation Links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar-links a {
+  color: #443;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #b68d58;
+}
+
+/* Book a Table Button */
+.navbar-btn {
+  display: inline-block;
+  padding: 11px 17px;
+  border: 2px solid #443;
+  border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+  color: #443;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+
+/* Hover Animation */
+.navbar-btn:hover {
+  border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;
+  border: 2px dashed #443;
+  color: #443;
+  background: transparent;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .header {
+    padding: 0 5%;
+  }
+
+  .navbar-links {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 75px;
+    padding: 0 5%;
+  }
+
+  .navbar-logo {
+    font-size: 21px;
+  }
+
+  .navbar-links {
+    gap: 10px;
+  }
+
+  .navbar-links a {
+    font-size: 13px;
+  }
+
+  .navbar-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-links {
+    gap: 7px;
+  }
+
+  .navbar-links a {
+    font-size: 11px;
+  }
+}

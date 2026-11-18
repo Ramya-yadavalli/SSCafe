@@ -1,0 +1,11 @@
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\bin\Debug\net10.0\SSCafe.UserManagenent.Domain.deps.json
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\bin\Debug\net10.0\SSCafe.UserManagenent.Domain.dll
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\bin\Debug\net10.0\SSCafe.UserManagenent.Domain.pdb
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\SSCafe.UserManagenent.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\SSCafe.UserManagenent.Domain.AssemblyInfoInputs.cache
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\SSCafe.UserManagenent.Domain.AssemblyInfo.cs
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\SSCafe.UserManagenent.Domain.csproj.CoreCompileInputs.cache
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\SSCafe.UserManagenent.Domain.dll
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\refint\SSCafe.UserManagenent.Domain.dll
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\SSCafe.UserManagenent.Domain.pdb
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagenent.Domain\obj\Debug\net10.0\ref\SSCafe.UserManagenent.Domain.dll
