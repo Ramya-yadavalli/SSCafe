@@ -10,7 +10,7 @@ function BookTable() {
   };
 
   return (
-    <section className="booking-section" id="booking">
+    <section className="booking-section" id="book">
 
       {/* SECTION HEADING */}
       <div className="booking-heading">

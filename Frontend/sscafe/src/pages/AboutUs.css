@@ -1,34 +1,68 @@
 
-/* Main Section */
+/* =====================================
+   GOOGLE FONT
+===================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* =====================================
+   MAIN ABOUT SECTION
+===================================== */
+
 .about-section {
   width: 100%;
   padding: 60px 9%;
   background: #ffffff;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* Section Heading */
+/* =====================================
+   SECTION HEADING
+   Same as Menu Heading
+===================================== */
+
 .about-heading {
   text-align: center;
+  position: relative;
   margin-bottom: 45px;
+  min-height: 45px;
 }
 
 .about-heading span {
-  display: inline-block;
-  color: #b68d58;
-  font-size: 15px;
-  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  top: -27px;
+
+  transform: translateX(-50%);
+
+  font-size: 65px;
+  font-weight: 400;
   letter-spacing: 3px;
-  margin-bottom: 8px;
+
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(70, 68, 55, 0.35);
+
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .about-heading h2 {
-  color: #393529;
-  font-size: 32px;
-  font-weight: 600;
-  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+
+  color: #443;
+
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 2.3;
+  margin: 0;
 }
 
-/* Main Container */
+/* =====================================
+   MAIN CONTAINER
+===================================== */
+
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,7 +72,10 @@
   margin: 0 auto;
 }
 
-/* Left Image */
+/* =====================================
+   LEFT IMAGE
+===================================== */
+
 .about-image {
   width: 100%;
   overflow: hidden;
@@ -55,7 +92,10 @@
   transform: scale(1.04);
 }
 
-/* Right Content */
+/* =====================================
+   RIGHT CONTENT
+===================================== */
+
 .about-content {
   width: 100%;
 }
@@ -75,7 +115,10 @@
   margin-bottom: 15px;
 }
 
-/* Read More Button */
+/* =====================================
+   READ MORE BUTTON
+===================================== */
+
 .about-btn {
   display: inline-block;
   margin-top: 10px;
@@ -83,6 +126,7 @@
   border: 1.5px solid #505043;
   color: #505043;
   font-size: 15px;
+  text-decoration: none;
   transition: 0.3s ease;
 }
 
@@ -91,7 +135,10 @@
   color: #ffffff;
 }
 
-/* Three Feature Boxes */
+/* =====================================
+   THREE FEATURE BOXES
+===================================== */
+
 .about-features {
   width: 100%;
   display: grid;
@@ -101,6 +148,7 @@
 }
 
 /* Individual Feature Card */
+
 .about-feature-card {
   text-align: center;
   padding: 18px 8px;
@@ -116,6 +164,7 @@
 }
 
 /* Feature Icons */
+
 .about-feature-icon {
   color: #b68d58;
   margin-bottom: 12px;
@@ -124,6 +173,7 @@
 }
 
 /* Feature Titles */
+
 .about-feature-card h4 {
   font-size: 13px;
   color: #393529;
@@ -132,14 +182,19 @@
 }
 
 /* Feature Description */
+
 .about-feature-card p {
   font-size: 11px;
   color: #777168;
   line-height: 1.6;
 }
 
-/* Tablet */
+/* =====================================
+   TABLET RESPONSIVE
+===================================== */
+
 @media (max-width: 900px) {
+
   .about-section {
     padding: 50px 5%;
   }
@@ -167,20 +222,30 @@
   .about-feature-card h4 {
     font-size: 12px;
   }
+
 }
 
-/* Mobile */
+/* =====================================
+   MOBILE RESPONSIVE
+===================================== */
+
 @media (max-width: 600px) {
+
   .about-section {
     padding: 45px 5%;
   }
 
   .about-heading {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+  }
+
+  .about-heading span {
+    font-size: 43px;
+    top: -12px;
   }
 
   .about-heading h2 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .about-container {
@@ -221,5 +286,81 @@
 
   .about-feature-card p {
     font-size: 10px;
+  }
+
+}
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media (max-width: 380px) {
+
+  .about-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .about-heading span {
+    font-size: 36px;
+  }
+
+  .about-heading h2 {
+    font-size: 20px;
+  }
+
+  .about-feature-card {
+    padding: 12px 4px;
+  }
+
+  .about-feature-card h4 {
+    font-size: 10px;
+  }
+
+  .about-feature-card p {
+    font-size: 9px;
+  }
+
+}
+
+/* =====================================
+   REDUCED MOTION
+===================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .about-image img,
+  .about-feature-card {
+    transition: none;
+  }
+
+}
+
+
+/* =====================================
+   ABOUT IMAGE ANIMATION
+===================================== */
+
+.about-image img {
+  width: 100%;
+  animation: aboutImage 4s linear infinite;
+}
+
+@keyframes aboutImage {
+  0%, 100% {
+    transform: scale(0.9);
+    border-radius: var(--border-radius-hover);
+  }
+
+  50% {
+    transform: scale(0.8);
+    border-radius: var(--border-radius);
+  }
+}
+
+/* Disable animation for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .about-image img {
+    animation: none;
   }
 }

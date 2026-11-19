@@ -190,3 +190,47 @@
     height: 65px;
   }
 }
+
+/* =====================================
+   FLOATING COFFEE IMAGE ANIMATION
+===================================== */
+
+.hero-main-image {
+  animation: float 4s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-70px);
+  }
+}
+
+/* Mobile Animation */
+@media (max-width: 600px) {
+  .hero-main-image {
+    animation: float 4s linear infinite;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-35px);
+    }
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .hero-main-image {
+    animation: none;
+  }
+}

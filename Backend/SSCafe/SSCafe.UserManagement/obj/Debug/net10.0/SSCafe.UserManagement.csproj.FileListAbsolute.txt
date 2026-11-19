@@ -203,3 +203,4 @@ C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagement\bin\De
 C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagement\bin\Debug\net10.0\System.Text.Encodings.Web.dll
 C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagement\bin\Debug\net10.0\System.Text.Json.dll
 C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagement\bin\Debug\net10.0\runtimes\browser\lib\net10.0\System.Text.Encodings.Web.dll
+C:\Users\WELCOME\OneDrive\Desktop\SS\Backend\SSCafe\SSCafe.UserManagement\obj\Debug\net10.0\SSCafe.UserManagement.sourcelink.json

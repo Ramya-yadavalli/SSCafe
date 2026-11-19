@@ -29,7 +29,7 @@ function AboutUs() {
   return (
     <section className="about-section" id="about">
 
-      {/* Section Heading */}
+      {/* Section Heading - Same as Menu Heading */}
       <div className="about-heading">
         <span>ABOUT US</span>
         <h2>WHY CHOOSE US</h2>
@@ -68,7 +68,7 @@ function AboutUs() {
             Read More
           </a>
 
-          {/* Three Feature Boxes - Below Right Side Text */}
+          {/* Three Feature Boxes */}
           <div className="about-features">
 
             {features.map((feature, index) => (

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSCafe.UserManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0189c27bae6401acd27d164cace34501a740dc96")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSCafe.UserManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSCafe.UserManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

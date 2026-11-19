@@ -26,12 +26,26 @@ namespace SSCafe.UserManagement.Controllers
         public IActionResult Login(LoginDto loginDTO)
         {
             var user = _context.Users.FirstOrDefault(x => x.Email == loginDTO.Email && x.Password == loginDTO.Password);
-
+            var role = " ";
+            var userName = " ";
             if (user == null)
             {
                 return Ok("User is not valid");
             }
 
+            var userRole = _context.UserRoles
+    .FirstOrDefault(x => x.UserId == user.Id);
+
+            if (userRole != null)
+            {
+                var roles = _context.Roles
+               .FirstOrDefault(x => x.Id == userRole.RoleId);
+                role = roles.Name;
+                userName = user.Name;
+            }
+      
+
+            
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("sdgfchvjbhvjgfytrdesdxfgcvhjbgyutrdxfcgv bhjgyudtrfcghvbhj");
 
@@ -50,7 +64,7 @@ namespace SSCafe.UserManagement.Controllers
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
-            return Ok(new { Token = tokenHandler.WriteToken(token) });
+            return Ok(new { Token = tokenHandler.WriteToken(token), Role = role, UserName = userName });
         }
     }
 }
