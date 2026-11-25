@@ -1,5 +1,8 @@
 <Solution>
   <Project Path="SSCafe.APIGateway/SSCafe.APIGateway.csproj" />
+  <Project Path="SSCafe.MenuManagement.Application/SSCafe.MenuManagement.Application.csproj" Id="db0b0848-b0ad-4f4f-8611-c95bbd692cdb" />
+  <Project Path="SSCafe.MenuManagement.Domain/SSCafe.MenuManagement.Domain.csproj" Id="b47b691a-7397-4b73-ba67-37c8bb950d4b" />
+  <Project Path="SSCafe.MenuManagement.Infrastructure/SSCafe.MenuManagement.Infrastructure.csproj" Id="3bc28508-8707-4788-b053-f30e8061c04f" />
   <Project Path="SSCafe.MenuManagement/SSCafe.MenuManagement.csproj" />
   <Project Path="SSCafe.UserManagement.Application/SSCafe.UserManagement.Application.csproj" />
   <Project Path="SSCafe.UserManagement.Domain/SSCafe.UserManagement.Domain.csproj" />
