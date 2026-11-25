@@ -16,13 +16,13 @@
           "Port": 5001
         }
       ],
-      "SwaggerKey": "sscafeapi",
+      "SwaggerKey": "sscafeuserapi",
       "DangerousAcceptAnyServerCertificateValidator": true
     }
   ],
   "SwaggerEndPoints": [
     {
-      "Key": "sscafeapi",
+      "Key": "sscafeuserapi",
       "Config": [
         {
           "Name": "SSCafe User Management API",
